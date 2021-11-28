@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nQuant.Core", "nQuant.Core\nQuant.Core.csproj", "{A59307EA-FCB0-4110-BC42-0417871C24C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nQuant", "nQuantShell\nQuant.csproj", "{D502D741-603F-4566-A7ED-B8A624DD008F}"
@@ -13,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{07CD26
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nQuant.Facts", "nQuant.Facts\nQuant.Facts.csproj", "{1E75A3A3-ABED-4802-9113-DE9E51AD9B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nQuant.Standard", "nQuant.Standard\nQuant.Standard.csproj", "{3DC6419F-01ED-4952-9547-901A3E8292C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,8 +76,27 @@ Global
 		{1E75A3A3-ABED-4802-9113-DE9E51AD9B91}.Release|x64.Build.0 = Release|x64
 		{1E75A3A3-ABED-4802-9113-DE9E51AD9B91}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E75A3A3-ABED-4802-9113-DE9E51AD9B91}.Release|x86.Build.0 = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|x64.Build.0 = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DC6419F-01ED-4952-9547-901A3E8292C2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {651ABC74-DDE7-4865-B91C-EC7AB679D7FC}
 	EndGlobalSection
 EndGlobal
